@@ -2,7 +2,7 @@
     display: inline-grid;
     grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px;
     grid-template-rows:80px 80px 80px 80px 80px 80px 80px 80px;
-    background-color: #2196F3;
+    background-color: #7a7785;
     padding: 10px;
     margin: 10px;
     gap: 10px;
@@ -16,10 +16,11 @@
     display: grid;
     grid-template-columns: 80px 80px 80px;
     grid-template-rows: 80px 80px 80px;
+    background-color: #7a7785;
     gap: 10px;
-    background-color: #2196F3;
     padding: 10px;
     width: fit-content;
+    height: fit-content;
 }
 
 img{
@@ -29,4 +30,15 @@ img{
 body{
     display: flex;
     flex-direction: row;
+    background-color: #6eca97;;
+    justify-content: center;
+}
+
+button{
+    background-color: #fffbf7;
+    border: #7a7785 solid 1px;
+}
+
+.head{
+    grid-column: 1 / span 3;
 }
