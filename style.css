@@ -25,3 +25,8 @@
 img{
     width: 60px;
 }
+
+body{
+    display: flex;
+    flex-direction: row;
+}
