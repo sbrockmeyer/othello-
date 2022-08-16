@@ -39,6 +39,18 @@ button{
     border: #7a7785 solid 1px;
 }
 
+.pokemon{
+    background-color: #fffbf7;
+    border: #7a7785 solid 1px;
+    /* cursor: pointer; */
+}
+.pokemon:hover{
+    cursor: pointer;
+    background-color:#fffbf787;
+    border: #7a77856d solid 1px;
+
+}
+
 .head{
     grid-column: 1 / span 3;
 }
