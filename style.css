@@ -34,9 +34,14 @@ body{
     justify-content: center;
 }
 
-button{
+.btn{
     background-color: #fffbf7;
     border: #7a7785 solid 1px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:#fffbf787;
+    border: #7a77856d solid 1px;
 }
 
 .pokemon{
@@ -48,7 +53,6 @@ button{
     cursor: pointer;
     background-color:#fffbf787;
     border: #7a77856d solid 1px;
-
 }
 
 .head{
