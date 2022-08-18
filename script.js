@@ -3,7 +3,7 @@
 var whitePieces = 0;
 var blackPieces = 0;
 var board = new Array(8);
-var currentPlayer = 1;
+var currentPlayer = 0;
 var player1Token = "";
 var player2Token = "";
 
@@ -18,6 +18,20 @@ function buildBoard(){
         for (var j = 0; j < 8; j++) {
             board[i][j] = document.getElementById(`btn${i+1},${j+1}`);
         }
+    }
+}
+
+function setPlayerToken(clickID){
+    console.log(clickID);
+    if(currentPlayer == 0){
+        player1Token = document.getElementById(clickID).getElementsByTagName("img")[0].src;
+        currentPlayer = 1;
+        console.log(player1Token);
+    }
+    else{
+        player2Token = document.getElementById(clickID).getElementsByTagName("img")[0].src;
+        currentPlayer = 0;
+        console.log(player2Token);
     }
 }
 
